@@ -58,7 +58,7 @@ public class RootServlet extends DropboxServlet {
 	
 	private void initializeDropboxUser(){
 		
-	
+	//Datastore
 		if(Datastore.readDropboxUser(getCurrentUser())== null){
 			System.out.println("[initializeDropboxUser] - User was not set up, but will be set up now");
 			
