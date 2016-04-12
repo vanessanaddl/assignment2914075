@@ -21,9 +21,11 @@ public class DropboxFile {
 	
 
 	@Persistent
+	//owner
 	private DropboxDirectory owner;
 	
 	@Persistent
+	//blobkey
 	private BlobKey blob;
 	
 	public DropboxFile (String name, BlobKey blob, DropboxDirectory owner){
